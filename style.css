@@ -1,0 +1,56 @@
+@font-face { font-family: junegull; src: url('assets/junegull.TTF'); }
+@font-face { font-family: MODERNA_; src: url('assets/Cronus Round.otf'); }
+html,body{
+    height: 100%;
+}
+.bgcontainer{
+    background-image: url(assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.loginbox{
+/*    border: 1px solid yellow;*/
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 5%;
+   
+}
+.fields{
+    color: white;
+    font-family: junegull;
+    padding: 5%;
+    background-color: rgba(0,0,0,.7);
+     border: 1px solid black;
+    border-bottom-left-radius: 1em;
+    border-top-right-radius: 1em;
+    
+}
+.fields input[type=text], input[type=password]{
+    width: 100%;
+    outline: none;
+    border-radius: .5em;
+    border: 1px solid black;
+    padding: 1%;
+    background-color: rgba(10,10,10,.7);
+    color: white;
+    font-family: serif;
+}
+.headings{
+    display: block;
+    font-size: 12px;
+}
+a:hover{
+    text-decoration: none;
+}
+#loginbtn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+    
+}
+#title{
+    color: white;
+    font-size: 5em;
+}
