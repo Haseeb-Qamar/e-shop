@@ -17,6 +17,12 @@ html,body{
     margin-top: 5%;
    
 }
+.signupbox{
+    display: none;
+    width: 420px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
 .fields{
     color: white;
     font-family: junegull;
@@ -41,10 +47,13 @@ html,body{
     display: block;
     font-size: 12px;
 }
+#btn-signup{
+ font-size: 10px;   
+}
 a:hover{
     text-decoration: none;
 }
-#loginbtn{
+#loginbtn,#signupbtn{
     display: block;
     margin: 0 auto;
     margin-top: 5%;
